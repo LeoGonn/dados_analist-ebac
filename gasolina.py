@@ -11,4 +11,3 @@ with sns.axes_style('darkgrid'):
   grafico_gasolina.set(title='Preço da gasolina na cidade de SÃO PAULO', xlabel='Dia', ylabel='Preço (R$)')
   figura = grafico_gasolina.get_figure()
   figura.savefig(fname='gasolina.png', dpi=600)
-
